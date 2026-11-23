@@ -8,7 +8,7 @@
 
 ## 安装
 
-1. 在 [Releases](https://github.com/XuanLIN0224/PickVideo-Releases/releases/latest) 下载 `PickVideo-v1.1.4-macos-arm64.dmg`。`Source code` 是开发者源码，不是应用安装包。
+1. 在 [Releases](https://github.com/XuanLIN0224/PickVideo/releases/latest) 下载 `PickVideo-v1.1.4-macos-arm64.dmg`。`Source code` 是开发者源码，不是应用安装包。
 2. 打开 DMG，将“拾影”拖到 Applications。也可以下载 ZIP，解压后将“拾影.app”移到“应用程序”。
 3. 如果已经安装 [Homebrew](https://brew.sh/)，在终端运行下面的命令。没有 Homebrew 时，请先按照其官方网站的安装说明操作。
 
