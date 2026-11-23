@@ -4,7 +4,7 @@
 
 ## 下载与安装
 
-从 [GitHub Releases](https://github.com/XuanLIN0224/PickVideo/releases/latest) 下载 DMG 或 ZIP。支持 **Apple Silicon Mac、macOS 14+**，当前不提供 Intel、Windows 或 Linux 应用。
+从 [GitHub Releases](https://github.com/XuanLIN0224/PickVideo-Releases/releases/latest) 下载 DMG 或 ZIP。支持 **Apple Silicon Mac、macOS 14+**，当前不提供 Intel、Windows 或 Linux 应用。
 
 打开 DMG，将“拾影”拖到 Applications。当前安装包包含解析引擎，但需要另外安装 FFmpeg、Node 和 aria2。已有 [Homebrew](https://brew.sh/) 时可以运行：
 
@@ -100,7 +100,7 @@ python3 -m venv .venv
 .venv/bin/python -B Tests/test_media_sync.py
 ```
 
-推送与应用版本一致的 `v` 标签，例如 `v1.1.4`，会触发 GitHub Actions 构建、回归检查和打包。所有检查通过后，工作流上传 DMG、ZIP 和 SHA-256 校验文件，再公开 Release。只发布本项目的应用与源码，忽略本机凭据、媒体、历史和编译缓存。
+推送与应用版本一致的 `v` 标签，例如 `v1.1.4`，会触发 GitHub Actions 构建、回归检查和打包。所有检查通过后，工作流上传 DMG、ZIP 和 SHA-256 校验文件到本源码仓库的 Release。当前源码仓库保持私有，公众安装包另外同步至 [公开下载仓库](https://github.com/XuanLIN0224/PickVideo-Releases/releases/latest)。本机凭据、媒体、历史和编译缓存不会进入仓库或安装包。
 
 ## 结构
 
